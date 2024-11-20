@@ -5,5 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Create An Account</h1>
+    <form>
+      <div>
+        <label for="Firstname">
+          Firstname <input required placeholder="First name" type="text" />
+        </label>
+      </div>
+      <div>
+        <label for="Last name">
+          Last name <input required placeholder="Last name" type="text" />
+        </label>
+      </div>
+      <div>
+        <label for="Email">
+          Email <input required placeholder="Email" type="email" />
+        </label>
+      </div>
+      <div>
+        <label for="Username">
+          Username <input required placeholder="Username" type="text" />
+        </label>
+      </div>
+      <div>
+        <label for="Password">
+          Password
+          <input required placeholder="Password" minlength="10" type="text" />
+        </label>
+      </div>
+
+      <div>
+        <label for="Birth date">
+          Birth date
+          <input required placeholder="Birth date" type="date" />
+        </label>
+      </div>
+
+      <div>
+        <label for="Happy">
+          How happy are you
+          <input
+            required
+            type="range"
+            min="0"
+            max="100"
+            step="10"
+            list="markers"
+          />
+
+          <datalist id="markers">
+            <option value="0"></option>
+            <option value="10"></option>
+            <option value="20"></option>
+            <option value="30"></option>
+            <option value="40"></option>
+            <option value="50"></option>
+            <option value="60"></option>
+            <option value="70"></option>
+            <option value="80"></option>
+            <option value="90"></option>
+            <option value="100"></option>
+          </datalist>
+        </label>
+      </div>
+
+      <div>
+        <label for="Happy">
+          What is your fav. color
+          <input required type="color" />
+        </label>
+      </div>
+      <div>
+        <label for="submit">
+          <input type="submit" value="Create Account" />
+        </label>
+      </div>
+    </form>
+  </body>
 </html>
