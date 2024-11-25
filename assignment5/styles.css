@@ -1,0 +1,129 @@
+body {
+  height: 90vh;
+  border: 10px solid #00c6ad;
+  padding: 50px 25px;
+}
+
+.playlist-header {
+  display: flex;
+  align-items: center;
+}
+
+.playlist-header__icon {
+  font-size: 25px;
+}
+.playlist-header__text {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 25px;
+  width: 100%;
+}
+
+.playlist-main {
+  display: flex;
+  margin-top: 50px;
+}
+
+.playlist-main__image {
+  background-color: #ffbd11;
+  width: 45%;
+  height: 10vh;
+  border-radius: 10%;
+  margin-right: 15px;
+  border: 3px solid black;
+}
+
+.playlist-main__image div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 50px;
+  color: white;
+}
+
+.playlist-main__text div:first-child {
+  font-size: 40px;
+  font-weight: bold;
+}
+.playlist-main__text div:last-child {
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.container-btn {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 10px;
+  align-items: center;
+}
+
+.container-btn__play {
+  width: 45%;
+  border: 3px solid black;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  border-bottom-width: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container-btn__like {
+  border: 3px solid black;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-width: 5px;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 25px;
+}
+
+.playlist-list {
+  display: flex;
+  /* align-items: center; */
+}
+
+.playlist-list__color {
+  margin-top: 10px;
+  background-color: tomato;
+  width: 50px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.playlist-list__container {
+  margin-left: 20px;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.playlist-list__song {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.playlist-list__aritist {
+  opacity: 0.6;
+  font-weight: bold;
+}
+
+.pink {
+  background-color: #ff89bb;
+}
+.blue {
+  background-color: #1847e5;
+}
+
+.green {
+  background-color: #00c6ad;
+}
